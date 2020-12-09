@@ -53,7 +53,7 @@ object Obfuscator {
         if (badLines > 0)
             println("> Skipped $badLines bad lines while parsing mappings")
 
-        println("* Finished parsing mappings")
+        println("> Finished parsing mappings")
         finishedParsing = true
     }
 
